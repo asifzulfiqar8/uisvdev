@@ -10,6 +10,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  Send,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -95,14 +96,32 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-textColor mb-4 font-sans">
-            Get in touch
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="flex items-center justify-center mb-6"
+          >
+            <span className="relative inline-flex">
+              <Send className="w-8 h-8 text-primary" />
+              <span className="absolute top-0 right-0 flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+              </span>
+            </span>
+          </motion.div>
+
+          <h2 className="text-2xl md:text-4xl font-bold text-textColor mb-6 font-sans">
+            Let's Create Something
+            <span className="text-primary"> Amazing</span> Together
           </h2>
           <p className="text-lg text-textColor/70 max-w-2xl mx-auto">
-            Let's discuss your project and explore how we can work together to
-            bring your ideas to life.
+            Have a project in mind? Let's discuss how we can bring your vision
+            to life with cutting-edge web technologies and exceptional user
+            experiences.
           </p>
         </motion.div>
 
@@ -219,8 +238,8 @@ export default function ContactSection() {
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-xl font-medium hover:bg-primary/90 transition-colors duration-200"
             >
-              <Mail className="w-5 h-5" />
-              <span>Send me an email</span>
+              {/* <Mail className="w-5 h-5" /> */}
+              <span>Start a Conversation</span>
               <ArrowUpRight className="w-4 h-4" />
             </motion.a>
           </div>
