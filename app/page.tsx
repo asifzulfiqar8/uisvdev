@@ -3,6 +3,7 @@ import { Footer } from "./components/footer";
 import { HeroSection } from "./components/sections/hero";
 import { ProjectsSection } from "./components/sections/projects";
 import { SkillsSection } from "./components/sections/skills";
+import ContactSection from "./components/sections/contact";
 
 // This enables Static Site Generation
 export const dynamic = "force-static";
@@ -23,6 +24,7 @@ export default function Home() {
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
       <Footer />
     </>
