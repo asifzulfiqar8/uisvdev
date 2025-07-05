@@ -25,15 +25,18 @@ export const metadata: Metadata = {
     "Web Development",
     "Frontend Developer",
   ],
+  metadataBase: new URL("https://www.asifzulfiqar.pro"),
   openGraph: {
     title: "Asif Zulfiqar - Software Engineer",
     description:
       "Explore the world of web development with Asif Zulfiqar, a Software Engineer skilled in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Discover visually stunning and interactive web solutions in my portfolio.",
     url: "https://www.asifzulfiqar.pro",
+    siteName: "Asif Zulfiqar Portfolio",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.asifzulfiqar.pro/assets/images/asif-banner.png", // MUST be 1200x630
+        url: "/images/asif.png",
         width: 1200,
         height: 630,
         alt: "Asif Zulfiqar - Software Engineer",
@@ -45,8 +48,9 @@ export const metadata: Metadata = {
     title: "Asif Zulfiqar - Software Engineer",
     description:
       "Explore the world of web development with Asif Zulfiqar, a Software Engineer skilled in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Discover visually stunning and interactive web solutions in my portfolio.",
-    images: ["https://www.asifzulfiqar.pro/assets/images/asif-banner.png"],
-    site: "@asifzulfiqar", // optional if you have a Twitter username
+    images: ["/images/asif.png"],
+    site: "@asifzulfiqar",
+    creator: "@asifzulfiqar",
   },
   authors: [
     {
@@ -55,9 +59,21 @@ export const metadata: Metadata = {
     },
   ],
   alternates: {
+    canonical: "https://www.asifzulfiqar.pro",
     types: {
       "application/x-github": "https://github.com/asifzulfiqar8",
       "application/x-linkedin": "https://www.linkedin.com/in/asifzulfiqar8/",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
 };
