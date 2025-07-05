@@ -233,7 +233,7 @@ export default function ContactSection() {
               about your ideas.
             </p>
             <motion.a
-              href="mailto:hello@yourname.com"
+              href="mailto:asifzulfiqar43@gmail.com"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-xl font-medium hover:bg-primary/90 transition-colors duration-200"
