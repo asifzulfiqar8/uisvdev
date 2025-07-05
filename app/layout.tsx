@@ -7,6 +7,7 @@ import { SmoothScroll } from "./components/smooth-scroll";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://asifzulfiqar.pro"),
   title: "Asif Zulfiqar - Software Engineer",
   description:
     "Hi, I'm Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions.",
@@ -25,49 +26,41 @@ export const metadata: Metadata = {
     "Web Development",
     "Frontend Developer",
   ],
-  metadataBase: new URL("https://www.asifzulfiqar.pro"),
   openGraph: {
+    type: "website",
+    url: "https://asifzulfiqar.pro",
     title: "Asif Zulfiqar - Software Engineer",
     description:
-      "Explore the world of web development with Asif Zulfiqar, a Software Engineer skilled in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Discover visually stunning and interactive web solutions in my portfolio.",
-    url: "https://www.asifzulfiqar.pro",
-    siteName: "Asif Zulfiqar Portfolio",
-    locale: "en_US",
-    type: "website",
+      "Hi, I'm Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript.",
+    siteName: "Asif Zulfiqar",
     images: [
       {
         url: "/images/asif.png",
-        width: 1200,
-        height: 630,
-        alt: "Asif Zulfiqar - Software Engineer",
+        width: 800,
+        height: 800,
+        alt: "Asif Zulfiqar",
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Asif Zulfiqar - Software Engineer",
-    description:
-      "Explore the world of web development with Asif Zulfiqar, a Software Engineer skilled in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Discover visually stunning and interactive web solutions in my portfolio.",
-    images: ["/images/asif.png"],
-    site: "@asifzulfiqar",
-    creator: "@asifzulfiqar",
+  other: {
+    "og:image:type": "image/png",
+    "og:image:width": "800",
+    "og:image:height": "800",
+    "og:locale": "en_US",
+    "og:site_name": "Asif Zulfiqar",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "/images/asif.png",
+    "twitter:image:type": "image/png",
+    "twitter:image:width": "800",
+    "twitter:image:height": "800",
   },
-  authors: [
-    {
-      name: "Asif Zulfiqar",
-      url: "https://www.asifzulfiqar.pro",
-    },
-  ],
-  alternates: {
-    canonical: "https://www.asifzulfiqar.pro",
-    types: {
-      "application/x-github": "https://github.com/asifzulfiqar8",
-      "application/x-linkedin": "https://www.linkedin.com/in/asifzulfiqar8/",
-    },
+  verification: {
+    google: "google-site-verification",
   },
   robots: {
     index: true,
     follow: true,
+    nocache: true,
     googleBot: {
       index: true,
       follow: true,
