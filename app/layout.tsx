@@ -7,7 +7,7 @@ import { SmoothScroll } from "./components/smooth-scroll";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Asif Zulfiqar - Software Engineer",
+  title: "Asif Zulfiqar - Software Engineer 👨🏻‍💻",
   description:
     "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions.",
   metadataBase: new URL("https://asifzulfiqar.pro"),
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://asifzulfiqar.pro",
-    title: "Asif Zulfiqar - Software Engineer",
+    title: "Asif Zulfiqar - Software Engineer 👨🏻‍💻",
     description:
       "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL.",
     siteName: "Asif Zulfiqar",
@@ -111,7 +111,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Asif Zulfiqar - Software Engineer"
+          content="Asif Zulfiqar - Software Engineer 👨🏻‍💻"
         />
         <meta
           name="twitter:description"
