@@ -48,7 +48,7 @@ export function Header() {
               <Sun className="h-4 w-4 text-textColor" />
             </div>
             <Link
-              href="#lets-talk"
+              href="#contact"
               className="group relative inline-flex h-9 items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/50 animate-button-glow"
             >
               <span className="relative">Let's Talk</span>
@@ -109,7 +109,7 @@ export function Header() {
             )}
           </button>
           <Link
-            href="#lets-talk"
+            href="#contact"
             className="group relative inline-flex h-9 items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/50 animate-button-glow"
           >
             <span className="relative">Let's Talk</span>

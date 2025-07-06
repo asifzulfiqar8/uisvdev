@@ -7,7 +7,10 @@ import Link from "next/link";
 
 export function ProjectsSection() {
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-transparent to-primary/5">
+    <section
+      className="w-full py-20 bg-gradient-to-b from-transparent to-primary/5"
+      id="projects"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center mb-16">

@@ -6,7 +6,10 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[90svh] w-full flex items-center justify-center overflow-hidden">
+    <section
+      className="relative min-h-[90svh] w-full flex items-center justify-center overflow-hidden"
+      id="hero"
+    >
       {/* Animated background elements */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
