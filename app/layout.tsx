@@ -71,7 +71,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="light" suppressHydrationWarning>
-      <head />
       <body
         className={`${geist.className} antialiased min-h-screen bg-bgColor flex flex-col`}
       >
