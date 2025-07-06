@@ -9,7 +9,7 @@ const geist = Geist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Asif Zulfiqar - Software Engineer",
   description:
-    "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions.",
+    "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions.",
   metadataBase: new URL("https://asifzulfiqar.pro"),
   keywords: [
     "Software Engineer",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://asifzulfiqar.pro",
     title: "Asif Zulfiqar - Software Engineer",
     description:
-      "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript.",
+      "Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL.",
     siteName: "Asif Zulfiqar",
     images: [
       {
@@ -84,7 +84,7 @@ export default function RootLayout({
         {/* Standard Meta */}
         <meta
           name="description"
-          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
+          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
         />
         <meta
           name="keywords"
@@ -97,7 +97,7 @@ export default function RootLayout({
         <meta property="og:title" content="Asif Zulfiqar - Software Engineer" />
         <meta
           property="og:description"
-          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
+          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
         />
         <meta
           property="og:image"
@@ -115,7 +115,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:description"
-          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer with expertise in HTML, CSS, JavaScript, Tailwind CSS, Reactjs, Nextjs, Node.js, Express, MongoDB, WordPress, Git/GitHub and Typescript. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
+          content="Explore the world of web development with Asif Zulfiqar, a passionate Software Engineer skilled in React.js, Next.js, Tailwind CSS, and TypeScript, and experienced in building scalable backends with Node.js, Express, MongoDB, and PostgreSQL. Explore my work and experience in building dynamic, scalable web applications and crafting visually stunning, interactive web solutions."
         />
         <meta
           name="twitter:image"

@@ -34,8 +34,7 @@ export function Footer() {
           <div className="flex items-center gap-1.5 text-xs sm:text-sm text-textColor/60">
             <span>© Copyright 2023 | All Rights Reserved </span>
             <Link
-              href="https://asifzulfiqar.pro/"
-              target="_blank"
+              href="/"
               rel="noopener noreferrer"
               className="relative inline-flex text-primary/80 hover:text-primary transition-colors"
             >
