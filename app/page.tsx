@@ -19,14 +19,14 @@ export default function Home() {
     <>
       <Header />
       <main className="flex-1">
-        {/* SEO-visible content directly on the page */}
+        {/* SEO Text for crawlers */}
         <section className="sr-only">
           <h1>Asif Zulfiqar - Software Engineer 👨🏻‍💻</h1>
           <p>
             Explore the world of web development with Asif Zulfiqar, a
             passionate Software Engineer skilled in React.js, Next.js, Tailwind
-            CSS, TypeScript, and experienced in building scalable backends with
-            Node.js, Express, MongoDB, and PostgreSQL.
+            CSS, TypeScript, and building scalable backends with Node.js,
+            Express, MongoDB, and PostgreSQL.
           </p>
         </section>
 
