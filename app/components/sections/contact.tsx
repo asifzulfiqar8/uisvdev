@@ -207,7 +207,7 @@ export default function ContactSection() {
                   whileTap={{ scale: 0.95 }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group w-14 h-14 bg-white dark:bg-textColor/5 rounded-xl border border-textColor/10 hover:border-primary/20 flex items-center justify-center hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
+                  className="group w-14 h-14 bg-bgColor rounded-xl border border-textColor/10 hover:border-primary/20 flex items-center justify-center hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
                 >
                   <Icon className="w-6 h-6 text-textColor/60 group-hover:text-primary transition-colors duration-200" />
                 </motion.a>
@@ -224,7 +224,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-center"
         >
-          <div className="bg-white dark:bg-textColor/5 rounded-2xl p-8 border border-textColor/10">
+          <div className="bg-bgColor rounded-2xl p-8 border border-textColor/10">
             <h3 className="text-2xl font-semibold text-textColor mb-4">
               Ready to start your project?
             </h3>
