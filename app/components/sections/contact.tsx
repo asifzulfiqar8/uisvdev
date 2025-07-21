@@ -142,7 +142,7 @@ export default function ContactSection() {
                 key={contact.label}
                 variants={itemVariants}
                 whileHover={{ y: -4 }}
-                className="group relative bg-white dark:bg-textColor/5 rounded-2xl p-6 border border-textColor/10 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
+                className="group relative bg-bgColor rounded-2xl p-6 border border-textColor/10 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/15 transition-colors duration-300">
