@@ -61,8 +61,8 @@ export function HeroSection() {
               transition={{ delay: 0.4, duration: 0.5 }}
               className="max-w-3xl mx-auto text-base sm:text-xl text-textColor/80"
             >
-              I build modern scalable web apps using React, Next.js, Node.js &
-              LLM Integrations
+              Empowering Founders with Scalable Web Solutions Using React,
+              Next.js, Node.js & AI/LLM Technologies
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
