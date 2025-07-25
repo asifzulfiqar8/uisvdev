@@ -59,7 +59,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
-              className="max-w-3xl mx-auto text-base sm:text-xl text-textColor/80"
+              className="max-w-3xl mx-auto text-base sm:text-lg text-textColor/80"
             >
               Software Engineer | Helping Founders Launch Scalable Products with
               React, Node.js & LLM Solutions
