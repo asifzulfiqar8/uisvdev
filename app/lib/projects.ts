@@ -10,34 +10,34 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  // {
+  //   id: "portfolio",
+  //   title: "Personal Portfolio",
+  //   description:
+  //     "Modern and minimalist portfolio built with Next.js 14, TypeScript, and Tailwind CSS. Features smooth animations, dark mode, and responsive design.",
+  //   image: "/images/projects/portfolio.png",
+  //   tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  //   liveUrl: "https://asifzulfiqar.pro",
+  //   githubUrl: "https://github.com/asifzulfiqar8/portfolio",
+  //   featured: true,
+  // },
   {
-    id: "portfolio",
-    title: "Personal Portfolio",
+    id: "ai-callcenter-platform",
+    title: "TeloAI Dashboard",
     description:
-      "Modern and minimalist portfolio built with Next.js 14, TypeScript, and Tailwind CSS. Features smooth animations, dark mode, and responsive design.",
-    image: "/images/projects/portfolio.png",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    liveUrl: "https://asifzulfiqar.pro",
-    githubUrl: "https://github.com/asifzulfiqar8/portfolio",
+      "An AI-powered outbound calling platform built on Vapi, enabling users to create campaigns, generate leads, and manage calls with real-time analytics.",
+    image: "/images/teloai.png",
+    tags: ["React", "TypeScript", "Zustand", "Node.js", "Vapi.ai",],
+    githubUrl: "https://dashboard.teloai.app/",
     featured: true,
   },
   {
-    id: "chatbot",
-    title: "AI Chatbot Platform",
+    id: "restroom",
+    title: "Restroom Management System",
     description:
-      "An intelligent chatbot platform leveraging OpenAI's GPT models. Built with real-time capabilities and dynamic response generation.",
-    image: "/images/projects/portfolio.png",
-    tags: ["React", "Node.js", "OpenAI", "Socket.io"],
-    githubUrl: "https://github.com/asifzulfiqar8/chatbot",
-    featured: true,
-  },
-  {
-    id: "ecommerce",
-    title: "E-commerce Dashboard",
-    description:
-      "Full-featured e-commerce admin dashboard with inventory management, order processing, and analytics.",
-    image: "/images/projects/portfolio.png",
+      "An IoT-powered platform where managers can add buildings, connect restroom sensors, and monitor real-time usage, alerts, and performance through a centralized dashboard.",
+    image: "/images/restroom.png",
     tags: ["Next.js", "MongoDB", "Tailwind CSS", "TypeScript"],
-    githubUrl: "https://github.com/asifzulfiqar8/ecommerce",
+    githubUrl: "https://restroom-next.vercel.app/",
   },
 ];
