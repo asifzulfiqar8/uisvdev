@@ -84,7 +84,7 @@ export function HeroSection() {
           >
             {/* Primary Button */}
             <Link
-              href="/images/asifzulfqar-resume.pdf"
+              href="/images/asifzulfiqar-resume.pdf"
               className="group relative inline-flex items-center justify-center gap-2 h-12 px-6 bg-primary text-white rounded-lg transition-all hover:bg-primary/90 active:scale-[0.98]"
             >
               <span className="font-medium">See Resume</span>
