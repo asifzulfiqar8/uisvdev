@@ -42,12 +42,12 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/asifzulfiqar8",
+    href: "https://github.com/asif-zulfiqar",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/asifzulfiqar8",
+    href: "https://linkedin.com/in/asif-zulfiqar",
   },
 ];
 
