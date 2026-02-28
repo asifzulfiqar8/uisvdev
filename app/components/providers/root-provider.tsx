@@ -19,7 +19,16 @@ export function RootProvider({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider>
       <CustomCursor />
-      {isLoading ? <LoadingScreen /> : children}
+      {isLoading && <LoadingScreen />}
+      <div
+        style={{
+          opacity: isLoading ? 0 : 1,
+          transition: "opacity 0.3s ease-in",
+          pointerEvents: isLoading ? "none" : "auto",
+        }}
+      >
+        {children}
+      </div>
     </ThemeProvider>
   );
 }
